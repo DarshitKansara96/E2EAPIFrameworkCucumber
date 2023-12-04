@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.886 sec <<< FAILURE!
+Verify if Delete Place API is working(Validating Place API's)  Time elapsed: 2.686 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.when()" because "stepDefinations.StepDefination.res" is null
+	at stepDefinations.StepDefination.user_calls_with_http_request(StepDefination.java:60)
+	at ?.user calls "DeletePlaceAPI" with "Post" http request(file:///C:/Amol/LunaWorkSpace/E2EAPIFrameworkCucumber/src/test/java/features/placevalidations.feature:20)
+
